@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -avz -C . ~
+rsync -avz -C --exclude install.sh . ~
